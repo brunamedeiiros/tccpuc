@@ -1,1 +1,70 @@
-<mxfile host="app.diagrams.net" modified="2021-07-20T00:15:05.396Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" version="14.9.0" etag="EpIErVboJhGxQss2cK5t" type="github"><diagram id="Y65PmQIElJN0XXsJEuQO">UzV2zq1wL0osyPDNT0nNUTV2VTV2LsrPL4GwciucU3NyVI0MMlNUjV1UjYwMgFjVyA2HrCFY1qAgsSg1rwSLBiADYTaQg2Y1AA==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2021-07-20T01:04:32.272Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.124 Safari/537.36" etag="JZadEiPH9YuEaFLP9Bx_" version="14.9.0" type="github">
+  <diagram id="Y65PmQIElJN0XXsJEuQO" name="Page-1">
+    <mxGraphModel dx="1108" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="wP-jv-wYP7lu7WL0M2dg-26" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.6;dx=40;direction=north;notch=0;fillColor=#FFCCFF;" vertex="1" parent="1">
+          <mxGeometry x="520" y="320" width="65" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-jv-wYP7lu7WL0M2dg-1" value="Acionar script automatizado Python" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="32.5" y="140" width="125" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-jv-wYP7lu7WL0M2dg-2" value="Será feito o download do csv zipado e o próprio script irá extrair os arquivos." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="30" y="246" width="130" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-jv-wYP7lu7WL0M2dg-3" value="Com arquivo em memória, faremos um split por vírgula, com isso converteremos o registro csv para um objeto Python." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC99FF;" vertex="1" parent="1">
+          <mxGeometry x="200" y="35" width="150" height="90" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-jv-wYP7lu7WL0M2dg-4" value="" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="55" y="70" width="80" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-jv-wYP7lu7WL0M2dg-5" value="&lt;b&gt;Início&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=#99FF99;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="75" y="80" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-jv-wYP7lu7WL0M2dg-6" value="Vamos descartar a coluna CID do dataframe, pois não será necessária para a análise." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#CC99FF;" vertex="1" parent="1">
+          <mxGeometry x="200" y="140" width="150" height="85" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-jv-wYP7lu7WL0M2dg-7" value="A coluna Qt SM RMI será convertida para numérico." style="rounded=1;whiteSpace=wrap;html=1;align=center;fillColor=#CC99FF;" vertex="1" parent="1">
+          <mxGeometry x="200" y="245" width="150" height="61" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-jv-wYP7lu7WL0M2dg-9" value="Carga na tabela Fato QTD_RENDAMENSALINICIAL,&amp;nbsp;&lt;br&gt;respeitando os id&#39;s das tabelas de dimensão inseridos anteriormente." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCFF;" vertex="1" parent="1">
+          <mxGeometry x="580" y="200" width="180" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-jv-wYP7lu7WL0M2dg-14" value="Carga da tabela DIM_UF, com lógica para atualizar caso já exista na tabela." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCFF;" vertex="1" parent="1">
+          <mxGeometry x="390" y="10" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-jv-wYP7lu7WL0M2dg-17" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.65;dx=42;direction=north;notch=0;fillColor=#CC99FF;" vertex="1" parent="1">
+          <mxGeometry x="245" y="319.5" width="60" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-jv-wYP7lu7WL0M2dg-19" value="" style="html=1;shadow=0;dashed=0;align=center;verticalAlign=middle;shape=mxgraph.arrows2.arrow;dy=0.65;dx=42;direction=north;notch=0;fillColor=#99CCFF;" vertex="1" parent="1">
+          <mxGeometry x="65" y="319.5" width="60" height="111" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-jv-wYP7lu7WL0M2dg-21" value="&lt;b&gt;Tratamento&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=270;" vertex="1" parent="1">
+          <mxGeometry x="252.63" y="382.38" width="45.25" height="19.5" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-jv-wYP7lu7WL0M2dg-22" value="&lt;b&gt;Extração&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=270;" vertex="1" parent="1">
+          <mxGeometry x="75" y="382.38" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-jv-wYP7lu7WL0M2dg-23" value="&lt;b&gt;Carga&lt;/b&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;rotation=270;" vertex="1" parent="1">
+          <mxGeometry x="533" y="382.38" width="40" height="20" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-jv-wYP7lu7WL0M2dg-27" value="Carga da tabela DIM_ESPECIE, com lógica para atualizar caso já exista na tabela." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCFF;" vertex="1" parent="1">
+          <mxGeometry x="390" y="100" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-jv-wYP7lu7WL0M2dg-28" value="Carga da tabela DIM_CLIENTELA, com lógica para atualizar caso já exista na tabela." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCFF;" vertex="1" parent="1">
+          <mxGeometry x="580" y="100" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-jv-wYP7lu7WL0M2dg-29" value="Carga da tabela DIM_SEXO, com lógica para atualizar caso já exista na tabela." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCFF;" vertex="1" parent="1">
+          <mxGeometry x="580" y="10" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-jv-wYP7lu7WL0M2dg-31" value="Carga da tabela DIM_DESPACHO, com lógica para atualizar caso já exista na tabela." style="rounded=1;whiteSpace=wrap;html=1;fillColor=#FFCCFF;" vertex="1" parent="1">
+          <mxGeometry x="390" y="200" width="160" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wP-jv-wYP7lu7WL0M2dg-34" value="&lt;b&gt;Fim&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#99FF99;" vertex="1" parent="1">
+          <mxGeometry x="710" y="319.5" width="80" height="40" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
