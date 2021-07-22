@@ -1,6 +1,6 @@
-<mxfile host="app.diagrams.net" modified="2021-07-22T22:55:19.282Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="ySkjG_ZBnr3c5GhOXnN3" version="14.9.2" type="github">
+<mxfile host="app.diagrams.net" modified="2021-07-22T22:57:35.655Z" agent="5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/91.0.4472.164 Safari/537.36" etag="tK6K_FFOgCFwPurTGTmR" version="14.9.2" type="github">
   <diagram id="R2lEEEUBdFMjLlhIrx00" name="Page-1">
-    <mxGraphModel dx="1958" dy="450" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
+    <mxGraphModel dx="2327" dy="600" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0" extFonts="Permanent Marker^https://fonts.googleapis.com/css?family=Permanent+Marker">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
@@ -152,7 +152,7 @@
           <mxGeometry x="340" y="395" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gvUjovy2ckil6-E0hNrR-11" value="DATA_ NASCIMENTO STRING NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" parent="1" vertex="1">
-          <mxGeometry x="340" y="303" width="260" height="30" as="geometry" />
+          <mxGeometry x="340" y="290" width="260" height="30" as="geometry" />
         </mxCell>
         <mxCell id="gvUjovy2ckil6-E0hNrR-15" value="DIM_DESPACHO" style="shape=table;startSize=30;container=1;collapsible=1;childLayout=tableLayout;fixedRows=1;rowLines=0;fontStyle=1;align=center;resizeLast=1;" parent="1" vertex="1">
           <mxGeometry x="-10" y="390" width="230" height="130" as="geometry" />
@@ -322,6 +322,9 @@
         </mxCell>
         <mxCell id="tuHQjbUbJnLKvYvQzGzj-4" value="VALOR_CONCEDIDO NUMERIC NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="1">
           <mxGeometry x="344" y="530" width="260" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="tuHQjbUbJnLKvYvQzGzj-10" value="IDADE INT NOT NULL " style="shape=partialRectangle;overflow=hidden;connectable=0;fillColor=none;top=0;left=0;bottom=0;right=0;align=left;spacingLeft=6;" vertex="1" parent="1">
+          <mxGeometry x="340" y="310" width="260" height="30" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
