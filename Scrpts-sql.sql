@@ -26,6 +26,13 @@ id int not null auto_increment,
 clientela varchar(1000) not null, 
 primary key(id));
 
+create table dim_faixaetaria(
+id int not null auto_increment,
+faixaetaria varchar(1000) not null, 
+primary key(id));
+
+-- Drop table fato_qtd_rendamensalinicial
+
 create table fato_qtd_rendamensalinicial(
 id int not null auto_increment,
 data_concessao varchar(1000) not null,
@@ -33,16 +40,21 @@ quantidade numeric not null,
 id_especie int not null,
 id_despacho int not null,
 data_nascimento varchar(1000) not null,
+idade int not null,
 id_sexo int not null,
 id_clientela int not null,
 municipio varchar(1000) not null,
 vinculo_dependentes varchar(1000) not null,
 forma_filiacao varchar(1000) not null,
 id_uf int not null,
+id_faixaetaria int not null,
+valor_concedido numeric not null,
 primary key(id));
+
 
 alter table fato_qtd_rendamensalinicial add foreign key(id_especie) references dim_especie(id);
 alter table fato_qtd_rendamensalinicial add foreign key(id_despacho) references dim_despacho(id);
 alter table fato_qtd_rendamensalinicial add foreign key(id_sexo) references dim_sexo(id);
 alter table fato_qtd_rendamensalinicial add foreign key(id_clientela) references dim_clientela(id);
 alter table fato_qtd_rendamensalinicial add foreign key(id_uf) references dim_uf(id);
+alter table fato_qtd_rendamensalinicial add foreign key(id_faixaetaria) references dim_faixaetaria(id);
