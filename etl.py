@@ -227,10 +227,6 @@ def etl_beneficios(salarios):
         manter_generico(None, INSERT_FATO, (data_concessao, quantidade, id_especie, id_despacho, data_nascimento, idade, id_sexo, id_clientela, municipio, vinculo_dependentes, forma_filiacao, id_uf, id_faixaetaria, valor_concedido), 'dim_faixaetaria', 'faixaetaria')
 
 
-    for key, value in data.iteritems():
-        print(key, value)
-        print()
-
 
 if __name__ == '__main__':
     print('Iniciando')
@@ -245,7 +241,3 @@ if __name__ == '__main__':
 
     etl_beneficios(salarios)
 
-
-    data = ("Fernando3",)
-    id = manter_generico(SELECT_DIM_GENERIC, INSERT_DIM_GENERIC, data, tabela='teste', coluna='teste')
-    print(id)
